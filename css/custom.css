@@ -1,0 +1,110 @@
+
+/* Basic page styles */
+body {
+	background: #3E4649;
+	color: #f7f7f7;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2 {
+	font-weight: bold;
+}
+
+p {
+	font-size: 16px;
+	color: #cdcdcd;
+}
+
+/* Nav bar brand icon style */
+#brand-icon {
+  float: left;
+  margin: 20px;
+  width: 60px;
+}
+
+/* CTA section style */
+.call-to-action {
+  text-align: center;
+}
+
+.call-to-action p {
+	margin-bottom: 30px;
+	font-family: sans-serif;
+}
+.glyphicon-large {
+  padding: 15px;
+	font-size: 100px;
+}
+
+/* Remove margin at bottom of navbar */
+.navbar {
+	margin-bottom: 0;
+}
+
+/* Adjust height/style of nav bar */
+.navbar-brand, .navbar-nav li a {
+    line-height: 100px;
+    height: 100px;
+    padding-top: 0;
+}
+
+.navbar-inverse {
+	background: #2E2F31;
+	border: 0;
+}
+
+.navbar-inverse .navbar-nav li a {
+	color: #f7f7f7;
+	font-size: 16px;
+}
+.navbar-inverse .navbar-nav li a:hover {
+	background: #e20000;
+}
+
+/* Increase brand name size in header */
+.navbar-brand {
+  font-size: 1.5em;
+}
+
+/* Center nav toggle button */
+.navbar-toggle  {
+  float: right;
+  margin: 30px;
+}
+
+/* Style Jumbotron */
+.jumbotron {
+	background: #f7f7f7;
+	color: black;
+	text-align: center;
+}
+.jumbotron p {
+	color: #000;
+	font-size: 26px;
+}
+
+/* Style buttons */
+.btn-primary {
+	color: #000;
+	background-color: transparent;
+	border-color: black;
+	margin-bottom: 5px;
+}
+.btn-primary:hover {
+	color: #fff;
+	background-color: #000;
+	border-color: #000;
+}
+
+/* style dropdown menu */
+.dropdown-menu {
+	background: #2E2F31;
+	border-radius: 10;
+	border: 0;
+}
+.dropdown-menu li a {
+	padding: 15px;
+}
+.navbar-inverse .navbar-nav .dropdown-menu li a:hover {
+	background: #e20000;
+}
